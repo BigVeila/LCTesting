@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LifeCard_Example' do
+  pod 'LifeCard', :path => '../'
+
+  target 'LifeCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
