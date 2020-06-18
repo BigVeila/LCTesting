@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/David Bui/LifeCard'
+  s.homepage         = 'https://github.com/BigVeila/LCTesting'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'David Bui' => 'haibuihoang@vccorp.vn' }
-  s.source           = { :git => 'https://github.com/David Bui/LifeCard.git', :tag => s.version.to_s }
+  s.author           = { 'BigVeila' => 'haibh01508@gmail.com' }
+  s.source           = { :git => 'https://github.com/BigVeila/LCTesting.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'LifeCard/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LifeCard' => ['LifeCard/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
